@@ -1,4 +1,4 @@
-x = int(input("Input the integer")
+x = int(input("Input the integer"))
 lst = []
 for item in range(x):
 #range (x) generates a list from 0 to x-1, and then the "for" loop goes through each item in the list
