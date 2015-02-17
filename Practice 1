@@ -2,4 +2,7 @@
 Here is your first practice. 
 Make a program that writes out every number from 1 to an input number as a list. 
 And yes, there is a way to do this in 1 line.
+However, this is fairly advanced, so I don't expect anyone to actually write it out in one line.
+Please label your files as namePractice1.py
+Have fun =P
 '''
