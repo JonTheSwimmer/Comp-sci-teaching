@@ -1,0 +1,3 @@
+x=input("ihatecompsci")
+if x>5
+print("Hello")
