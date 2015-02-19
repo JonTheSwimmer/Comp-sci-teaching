@@ -3,7 +3,7 @@ For this assignment, you will......
 -dramatic break for tension-
 make a graph!
 *************************************
-For this assignment, I want you to make a graph of a parabola.
+For this assignment, I want you to make a graph of a parabola from x = -20 to x = 20
 In order to make graphs, you will need the visual and visual.graph modules
 We can get these by using:
 from visual import *
