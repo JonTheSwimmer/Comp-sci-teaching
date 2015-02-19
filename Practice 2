@@ -21,4 +21,7 @@ If you want an extra challenge, graph a spiral
 P.P.S.
 If you really want to challenge yourself, graph a spiral that changes colour as you graph it.
 I don't think this is possible with gcurve for reasons, so you'll need to use gdots to do this.
+Custom colours can be make by specifying RGB values for the colour
+Instead of saying (color = color.red), you would say (color = (value for red, value for green, value for blue))
+These values can be any number from 0 to 1, with 1 being the maximum colour, and 0 being the minimum colour
 Have fun!
