@@ -1,0 +1,24 @@
+YAAAAAAY
+For this assignment, you will......
+-dramatic break for tension-
+make a graph!
+*************************************
+For this assignment, I want you to make a graph of a parabola.
+In order to make graphs, you will need the visual and visual.graph modules
+We can get these by using:
+from visual import *
+from visual.graph import *
+(The star means "all" for import)
+You will also need gcurve, which is the curve making function
+As a refresher, you will define a function, like:
+fnc1 = gcurve(color = color.(whatever color you want, like red, or orange, or cyan, or green. Python doesn't have every color though))
+Then, when you're plotting things in your loop, you do:
+fnc1.plot(pos = (x,y))
+
+P.S.
+If you want an extra challenge, graph a spiral
+
+P.P.S.
+If you really want to challenge yourself, graph a spiral that changes colour as you graph it.
+I don't think this is possible with gcurve for reasons, so you'll need to use gdots to do this.
+Have fun!
