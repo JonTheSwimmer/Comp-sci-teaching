@@ -1,0 +1,24 @@
+This will be a practice for Euler's method, which is coming up in the Bio assignment.
+For this assignment, you will make a simulation of a planet's orbit around a star.
+Yes, this will be difficult.
+You are allowed to assume that the star does not move (although this is untrue).
+Use Gmm/(r**2) to calculate the force.
+Because we are doing an orbit, you will need to input masses, x and y positions, as well as initial x and y velocities
+It is highly recommended that you give the planet NON-ZERO positions and velocities
+A position of (0,0) will make your calcuations explode
+A velocity of (0,0) will make the planet just fall towards the star, which isn't as bad as exploding calculations, but it is boring.
+As a start, I will recommend making a while loop for these calculations, which should look like:
+while (calculation for distance between star and planet) > 0 and (calculation for distance between star and planet) < Some large number:
+The distance should be greater than 0 (or else the calculation blows up, as you divide by 0)
+It also should stop after some very large distance, as if the planet moves far away enough from the star, it is unlikely to return.
+Remember that Euler's can be written as:
+x(t+dt) = x(t) + vx(t)*dt
+vx(t+dt) = vx(t) + ax(t)*dt
+By the way, it will make your life MUCH easier to put the star in the center of the graph (ie (0,0))
+
+Extra hints:
+You will need to define your timestep, G, x,y, vx, vy, mass of planet, and mass of star
+Distance can be found using x and y co-ordinates with a very simple formula that all of you should know. The only hint I'm giving you is right-hand triangles.
+
+If you want an extra challenge, you can let the star move as well
+If you really want to challenge yourself, you could add charges to the planet and star as well, although quite frankly, that's just tedious.
